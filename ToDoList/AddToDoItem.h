@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoItem.h"
 
 @interface AddToDoItem : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;
+
+@property ToDoItem *toDoItem;
 
 @end

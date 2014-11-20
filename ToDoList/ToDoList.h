@@ -10,4 +10,10 @@
 
 @interface ToDoList : UITableViewController
 
+//Array to keep track of the items present on the ToDoList
+@property NSMutableArray *toDoItems;
+
+//Action used to transition back to the ToDoList view.
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue;
+
 @end

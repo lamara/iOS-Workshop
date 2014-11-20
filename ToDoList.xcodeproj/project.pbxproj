@@ -14,6 +14,9 @@
 		5817AB2D1A0D6B6D00664FEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5817AB2C1A0D6B6D00664FEA /* Images.xcassets */; };
 		5817AB301A0D6B6D00664FEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5817AB2E1A0D6B6D00664FEA /* LaunchScreen.xib */; };
 		5817AB3C1A0D6B6D00664FEA /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5817AB3B1A0D6B6D00664FEA /* ToDoListTests.m */; };
+		588803981A0E86D000D9B27A /* AddToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 588803971A0E86CF00D9B27A /* AddToDoItem.m */; };
+		5888039B1A0E87EE00D9B27A /* ToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888039A1A0E87EE00D9B27A /* ToDoList.m */; };
+		5888039E1A0E9B8800D9B27A /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5888039D1A0E9B8800D9B27A /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		5817AB351A0D6B6D00664FEA /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5817AB3A1A0D6B6D00664FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5817AB3B1A0D6B6D00664FEA /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		588803961A0E86CF00D9B27A /* AddToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItem.h; sourceTree = "<group>"; };
+		588803971A0E86CF00D9B27A /* AddToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItem.m; sourceTree = "<group>"; };
+		588803991A0E87EE00D9B27A /* ToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoList.h; sourceTree = "<group>"; };
+		5888039A1A0E87EE00D9B27A /* ToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoList.m; sourceTree = "<group>"; };
+		5888039C1A0E9B8800D9B27A /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		5888039D1A0E9B8800D9B27A /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				5817AB2C1A0D6B6D00664FEA /* Images.xcassets */,
 				5817AB2E1A0D6B6D00664FEA /* LaunchScreen.xib */,
 				5817AB1F1A0D6B6D00664FEA /* Supporting Files */,
+				588803961A0E86CF00D9B27A /* AddToDoItem.h */,
+				588803971A0E86CF00D9B27A /* AddToDoItem.m */,
+				588803991A0E87EE00D9B27A /* ToDoList.h */,
+				5888039A1A0E87EE00D9B27A /* ToDoList.m */,
+				5888039C1A0E9B8800D9B27A /* ToDoItem.h */,
+				5888039D1A0E9B8800D9B27A /* ToDoItem.m */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5888039E1A0E9B8800D9B27A /* ToDoItem.m in Sources */,
 				5817AB281A0D6B6D00664FEA /* ViewController.m in Sources */,
+				5888039B1A0E87EE00D9B27A /* ToDoList.m in Sources */,
 				5817AB251A0D6B6D00664FEA /* AppDelegate.m in Sources */,
+				588803981A0E86D000D9B27A /* AddToDoItem.m in Sources */,
 				5817AB221A0D6B6D00664FEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +432,7 @@
 				5817AB411A0D6B6D00664FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5817AB421A0D6B6D00664FEA /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +441,7 @@
 				5817AB441A0D6B6D00664FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
